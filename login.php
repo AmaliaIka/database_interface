@@ -23,7 +23,7 @@
         <input type="checkbox" class="check-box"><span>Remember Password</span>
         <button type="submit" class="submit-btn">Sign In</button>
     </form>
-    <form id="Sign-Up" class="input-group" style="left: 450px;">
+    <form id="Sign-Up" class="input-group" style="left: 450px;" action="index.php" method="post">
          <input type="text" class="input-field" placeholder="Name" required>
         <input type="email" class="input-field" placeholder="Email" required>
         <input type="password" class="input-field" placeholder="Enter Password" required>
@@ -50,16 +50,6 @@
         y.style.left = "450px";
         z.style.left = "0";
     }
-
-    function login() {
-    // Simulasi proses login
-    // Contoh: jika login berhasil, arahkan ke beranda.php
-    window.location.href = "index.php";
-
-    // Untuk menghentikan submit form
-     return false;
-    }
-
     </script>
 
 </body>
