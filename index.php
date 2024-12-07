@@ -25,7 +25,7 @@
                     <a href="#beranda" class="nav-link">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#acoount" class="nav-link">Account</a>
+                    <a href="#account" class="nav-link">Account</a>
                 </li>
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
